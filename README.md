@@ -1,4 +1,4 @@
-# psql2rabbitmq
+# es2es
 
 es2es is a library that forwards ElasticSearch data to the other ElasticSearch by source_time_column. Using the library, the parametrically given parameters are run, and the data obtained is forwarded to other ElasticSearch.
 
