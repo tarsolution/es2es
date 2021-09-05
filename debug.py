@@ -14,11 +14,11 @@ if __name__ == "__main__":
     )
 
     config = {
-            "source_host": 'elasticsearch.upa.svc.cluster.local:9200',
+            "source_host": 'elasticsearch.local:8800',
             "source_index": 'test-index',
             "source_time_column":"created_time",
             "source_greater_than_time":"",
-            "target_host": 'elasticsearch.upa.svc.cluster.local:9200',
+            "target_host": 'elasticsearch.local:8800',
             "target_index": 'copy-index',    
             "time_interval": 2,
             "data_limit": 100,
